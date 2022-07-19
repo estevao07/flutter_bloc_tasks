@@ -54,6 +54,7 @@ class _TasksScreenState extends State<TasksScreen> {
             ],
           ),
           floatingActionButton: FloatingActionButton(
+            backgroundColor: Colors.red,
             onPressed: () => _addTask(context),
             tooltip: 'Add Task',
             child: const Icon(Icons.add),
